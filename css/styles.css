@@ -1,0 +1,184 @@
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.top {
+  background-color: #00bcd4;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+                .mount {
+                  position: relative;
+                  top: 75px;
+                }
+
+                .happy1{
+                  position:absolute;
+                  right:530px;
+                  top:70px;
+                }
+
+                .happy{
+                  position:absolute;
+                  bottom:400px;
+                  left:500px;
+                }
+
+                h1{
+
+                  font-size: 5.625rem;
+                  /* 100% or 1 'em' is 16px - different way to express font size - dynamic sizing...
+                  if you use px to size the font, that's a static sizing; if we use 'rem' instead of
+                  'em' it refers to the 'root em' - 'rem' best way to size to avoid mistakes*/
+                  font-family: 'Sacramento', cursive;
+                  width:20%;
+                  margin:50px auto 0 auto;
+                  color: #00005c;
+                }
+
+
+                .pro {
+                  text-decoration: underline;
+                }
+
+                h2{
+                  font-family: 'Montserrat', sans-serif;
+                  font-size: 2.5rem;
+                  color: #00005c;
+                }
+
+                h3{
+                  font-family: 'Montserrat', sans-serif;
+                  color: #11999E;
+                }
+
+                h4 {
+                  font-size: 1.5rem;
+                  color:  #120136;
+                }
+
+                h5 {
+                  font-size: 1rem;
+
+                }
+
+
+                hr{
+                  border-style: none;
+                  border-top-style: dotted;
+                  border-color: grey;
+                  border-width: 5px;
+                  width: 5%;
+                }
+
+                .ap {
+                  font-weight: normal;
+                }
+
+.middle {
+  background-color: #dddddd;
+  position: relative;
+}
+
+                p {
+                  color:#162447;
+                }
+                .hello {
+                    font-family: 'Montserrat', sans-serif;
+                }
+
+                .skills {
+                  margin: 50px auto;
+                  width: 50%;
+                }
+
+                .wavingg{
+                  display: inline-block;
+                  color: #6a097d;
+                }
+
+                .winky {
+                  display: inline-block;
+                }
+
+                .devi {
+                  width: 25%;
+                  float: left;
+                  margin-right: 30px;
+                }
+
+                .bouldering {
+                  width: 31.5%;
+                  float: right;
+                  margin-left: 20px;
+                }
+
+
+                .skill-row {
+                  margin: 80px auto;
+                  width: 50%;
+                  text-align: left;
+                  line-height: 2;
+                }
+
+
+.bottom {
+  background-color: #40bad5;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+
+                  .skillz {
+                    color: #6a097d;
+                  }
+
+                  a {
+                    color: #035aa6;
+                  }
+
+                  .btn {
+                    color: rgb(0, 129, 117);
+                    text-decoration: none;
+                    font-size: 21px;
+                    padding: 10px;
+                    text-shadow: 0 -1px 0 rgba(30, 30, 30, 0.8);
+                    -webkit-border-radius: 48px;
+                    -moz-border-radius: 48px;
+                    border-radius: 48px;
+                    background: rgb(170, 255, 225);
+                    background: -moz-linear-gradient(78deg, rgb(170, 255, 225) 49%, rgb(191, 255, 186) 70%);
+                    background: -webkit-linear-gradient(78deg, rgb(170, 255, 225) 49%, rgb(191, 255, 186) 70%);
+                    background: -o-linear-gradient(78deg, rgb(170, 255, 225) 49%, rgb(191, 255, 186) 70%);
+                    background: -ms-linear-gradient(78deg, rgb(170, 255, 225) 49%, rgb(191, 255, 186) 70%);
+                    background: linear-gradient(348deg, rgb(170, 255, 225) 49%, rgb(191, 255, 186) 70%);
+                    -webkit-box-shadow: 0 2px 1px rgba(50, 50, 50, 0.75);
+                    -moz-box-shadow:    0 2px 1px rgba(50, 50, 50, 0.75);
+                    box-shadow:         0 2px 1px rgba(50, 50, 50, 0.75);
+                  }
+
+                  .btn:hover {
+                    background: #30e3cb;
+                  }
+
+                  .ft{
+                    color: rgb(0, 129, 117);
+                    margin: 10px 20px;
+                    text-decoration: none;
+                    padding: 10px;
+                  }
+
+                  .ft:hover {
+                    color: #30e3cb;
+                  }
+
+                  .end {
+                   font-size: 0.75rem;
+                   margin-bottom: 0;
+                   color: #EAF6F6
+                  }
